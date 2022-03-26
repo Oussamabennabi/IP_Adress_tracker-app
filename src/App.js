@@ -7,8 +7,8 @@ import Input from './components/Input';
 // styles
 import './global.css'
 
-const URL = (address,domain='') => {
-	return `https://geo.ipify.org/api/v2/country,city?apiKey=at_EN7k3p179W0qMbezVJuFB40KFWFDj&ipAddress=${address}&domain=${domain}`;
+const URL = (address) => {
+	return `https://geo.ipify.org/api/v2/country,city?apiKey=at_EN7k3p179W0qMbezVJuFB40KFWFDj&ipAddress=${address}`;
 };
 export default function App() {
   const [address,setAddress] = React.useState('')
