@@ -64,6 +64,3 @@ export default function App() {
 		</>
 	);
 }
-
-
-//lat:40.737, lng:-73.923
