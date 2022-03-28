@@ -68,7 +68,7 @@ export default function App() {
 			)} */}
 
 			<Map
-				
+				ipAddress={info.ip}
 				location={position[0] && position[1] ? position : [30, 45]}
 			/>
 		</>
